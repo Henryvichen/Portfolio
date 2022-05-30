@@ -1,0 +1,49 @@
+{boxsizing: border-box}
+
+/* styling the header, making the background color expand with padding and adjusting font */
+header {
+  padding:10px;
+  background-color: #aecad5;
+  color: white;
+  font-size: 30px
+} 
+
+/* Making most of the text in the website cented and same font! (Monsterrat is such a good font!) */
+header, body, footer {
+text-align: center;
+font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Styling the footer with a background and expanding it with some padding */
+footer {
+  background: #aecad5;
+  padding:5px;
+}
+/* Giving the about section a background color and some padding (Padding is great..) */
+.About {
+  background: #aecad5;
+  padding: 20px
+}
+
+/* Changing font size of h1 to fit my taste */
+h1 {
+  font-size:60px;
+}
+/* Changing font size of h2 to fit my taste */
+h2 {
+  font-size:40px;
+}
+  
+/* Adjusting image size and centering it */
+  img {
+    height: 700px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styling links with psuedo-class! */
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: #6ed47a; }
+a:active  { color: #aecad5;  }
